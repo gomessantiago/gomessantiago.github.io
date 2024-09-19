@@ -1,1 +1,94 @@
-teste
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .post {
+            flex: 3;
+            background-color: #fff;
+            padding: 20px;
+            margin-right: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .post h1 {
+            color: #333;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h2 {
+            color: #333;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="post">
+            <h1>Título do Post Principal</h1>
+            <p>
+                Este é o conteúdo do post principal. Aqui você pode escrever sobre o tópico principal do seu blog.
+                Fale sobre seus interesses, compartilhe histórias, ou qualquer outra coisa que queira que seus leitores saibam.
+            </p>
+            <p>
+                Você pode adicionar imagens, links e outras mídias aqui. O design desta página é simples, mas funcional,
+                perfeito para um blog pessoal ou pequeno.
+            </p>
+        </div>
+
+        <div class="sidebar">
+            <h2>Outros Posts</h2>
+            <ul>
+                <li><a href="#">Post 1: Como começar um blog</a></li>
+                <li><a href="#">Post 2: Dicas para escrever conteúdo</a></li>
+                <li><a href="#">Post 3: Como atrair leitores</a></li>
+                <li><a href="#">Post 4: Melhores ferramentas para blogs</a></li>
+                <li><a href="#">Post 5: SEO básico para iniciantes</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
